@@ -1,0 +1,22 @@
+.hidden {
+    display: none;
+  }
+  
+  * {
+    font-family: sans-serif;
+  }
+  
+  .form-control {
+      width: 50%; 
+  }
+
+  .comments {
+      height: 200px;
+      width: 45%;
+      text-align: top-left;  
+      
+      
+      
+  }
+
+  
