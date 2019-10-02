@@ -15,7 +15,7 @@ function displayResults(responseJson) {
   let htmlStr=''
   for(let i=0; i<responseJson.results.length; i++){
     let r=responseJson.results[i]
-    htmlStr+=`<a target"_blank" href="${r.url}"><h2>${r.title}</h2><div>${r.price}</div></a>`
+    htmlStr+=`<a target="_blank" href="${r.url}"><h2>${r.title}</h2><div>${r.price}</div></a>`
   }
 
 $('#root').html(htmlStr);
@@ -56,12 +56,16 @@ function getEtsyInfo(query,limit=10) {
 
 function watchForm() {
   $('form').submit(event => {
-    getEtsyInfo(($('select').val()))
-    if($('select').val() === "Select Heels")
-
-{ alert("Please select heels"); return; }
-
+    
     event.preventDefault();
+    
+    if($('select').val() === "Select Heels"){ 
+      alert("Please select heels"); 
+      return; 
+    }
+
+    
+    getEtsyInfo(($('select').val()))
     console.log($('select').val())
   });
 }
