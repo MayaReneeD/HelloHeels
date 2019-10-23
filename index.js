@@ -15,7 +15,7 @@ function displayResults(responseJson) {
   let htmlStr=''
   for(let i=0; i<responseJson.results.length; i++){
     let r=responseJson.results[i]
-    htmlStr+=`<a target="_blank" href="${r.url}"><h2>${r.title}</h2><div>${r.price}</div></a>`
+    htmlStr+=`<a target="_blank"href="${r.url}"><h2>${r.title}</h2><div>$${r.price}</div></a>`
   }
 
 $('#root').html(htmlStr);

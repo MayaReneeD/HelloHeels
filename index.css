@@ -8,6 +8,8 @@
   
   .form-control {
       width: 50%; 
+      height: 50%; 
+      font-size: 15px; 
   }
 
   .comments {
@@ -16,7 +18,7 @@
       text-align: top-left;  
       
       
-      
+
   }
 
   body {
