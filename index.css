@@ -21,6 +21,27 @@
 
   }
 
+  .heels-link {
+    color: white; 
+    background-color: black; 
+    line-height:1.5; 
+    width: 36em;
+    margin: 0 auto;
+    font-size: 16px;
+
+  }
+    
+    
+     
+
+
+  .heels-card {
+    max-width: 75%; 
+    background-color: rgb(90, 49, 90) 
+     
+  
+  }
+
   body {
     background-image: url('https://wallpapertag.com/wallpaper/full/0/d/e/913150-widescreen-background-glitter-1960x1307-for-android-tablet.jpg');
     background-repeat: repeat; 

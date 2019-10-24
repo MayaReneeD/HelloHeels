@@ -10,17 +10,21 @@ function formatQueryParams(params) {
   return queryItems.join('&');
 }
 
-function displayResults(responseJson) {
 
+function displayResults(responseJson) {
   let htmlStr=''
   for(let i=0; i<responseJson.results.length; i++){
     let r=responseJson.results[i]
-    htmlStr+=`<a target="_blank"href="${r.url}"><h2>${r.title}</h2><div>$${r.price}</div></a>`
+    htmlStr+=`<section class="heels-card">
+    <a class="heels-link" target="_blank"href="${r.url}"><h2>${r.title}</h2><div>$${r.price}</div><div>${r.materials[0]?r.materials[0]:""}</div><div>${r.when_made}</div></a>
+</section>`
   }
+
 
 $('#root').html(htmlStr);
     
 }
+
 
 function getEtsyInfo(query,limit=10) {
   const params = {
