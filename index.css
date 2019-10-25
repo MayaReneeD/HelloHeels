@@ -37,7 +37,8 @@
 
   .heels-card {
     max-width: 75%; 
-    background-color: rgb(90, 49, 90) 
+    background-color: rgb(90, 49, 90);
+    margin: auto; 
      
   
   }
@@ -54,3 +55,6 @@
     width: 57%; 
   }
   
+  .container {
+    text-align: center; 
+  }
