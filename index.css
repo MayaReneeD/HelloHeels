@@ -59,6 +59,60 @@
     text-align: center; 
   }
 
+  .pumps {
+    width: 150px;
+    height: 150px; 
+  }
+
+  .glitter {
+    width: 150px;
+    height: 150px;
+  }
+
+  .kitten {
+    width: 150px;
+    height: 150px;
+  }
+
+  .lace {
+    width: 150px;
+    height: 150px; 
+  }
+
+  .low {
+    width: 150px;
+    height: 150px; 
+
+  }
+
+  .mid {
+    width: 150px;
+    height: 150px; 
+  }
+
+  .high {
+    width: 150px;
+    height: 150px; 
+  }
+
+  .wedge {
+    width: 150px;
+    height: 150px; 
+  }
+
+  .sandal {
+    width: 150px;
+    height: 150px; 
+  }
+  .mule {
+    width: 150px;
+    height: 150px;
+  }
+
+  .block {
+    width: 150px;
+    height: 150px;
+  }
 
 @media screen and (min-width:480px) {
   .heels-card {

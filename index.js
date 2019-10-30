@@ -13,6 +13,76 @@ function formatQueryParams(params) {
 
 function displayResults(responseJson) {
   let htmlStr=''
+  if($('select').val() === "Pump Heels"){ 
+    htmlStr+=`<marquee behavior="alternate" scrollamount="15">
+    <img class="pumps" alt="Pump Heels" src="https://www.neimanmarcus.com/product_assets/X/4/T/G/B/NMX4TGB_mk.jpg">
+    </marquee>`
+  }
+    if($('select').val() === "Glitter Heels"){ 
+      htmlStr+=`<marquee behavior="alternate" scrollamount="15">
+      <img class="glitter" alt="Glitter Heels" src="https://www.wittner.com.au/media/catalog/product/cache/1/image/391x/040ec09b1e35df139433887a97daa66f/d/e/delores_silver_2_2.jpg">
+      </marquee>`
+  }
+  if($('select').val() === "Kitten Heels"){ 
+    htmlStr+=`<marquee behavior="alternate" scrollamount="15">
+    <img class="kitten" alt="Kitten Heels" src="http://www.narsuitespera.com/images/447/722195_9511.jpg">
+    </marquee>`
+
+  }
+  if($('select').val() === "Lace Up Heels"){ 
+    htmlStr+=`<marquee behavior="alternate" scrollamount="15">
+    <img class="lace" alt="Lace Heels" src="https://img-static.tradesy.com/item/25089364/pink-nude-lace-up-heel-sandals-size-us-9-regular-m-b-0-1-960-960.jpg">
+    </marquee>`
+
+  }
+  if($('select').val() === "Low Heels"){ 
+    htmlStr+=`<marquee behavior="alternate" scrollamount="15">
+    <img class="low" alt="Low Heels" src="https://cdn-images.farfetch-contents.com/14/15/29/28/14152928_21067865_600.jpg">
+    </marquee>`
+
+  }
+  if($('select').val() === "Mid Heels"){ 
+    htmlStr+=`<marquee behavior="alternate" scrollamount="15">
+    <img class="mid" alt="Mid Heels" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvxT0Pn1pZYE4LXdVlha7P9bCz5sU1gMUJkTGhCVwPsLwOTZDG&s">
+    </marquee>`
+  }
+
+  if($('select').val() === "High Heels"){ 
+  htmlStr+=`<marquee behavior="alternate" scrollamount="15">
+  <img class="high" alt="High Heels" src="https://www.nooshoes.co.uk/wp-content/uploads/2016/06/js_IMG_7611.jpg">
+  </marquee>`
+
+}
+
+if($('select').val() === "Wedge Heels"){ 
+htmlStr+=`<marquee behavior="alternate" scrollamount="15">
+<img class="wedge" alt="Wedge Heels" src="http://www.jcwntech.co.za/images/cate_4/640/Back-Zip-Cut-Out-Sandals-Platform-Peep-Toe-High-Wedge-Heel-Womens-Shoes-Stylish-Pink-VWOUqvgd63-hvl0.jpg">
+</marquee>`
+
+}
+
+if($('select').val() === "Sandal Heels"){ 
+htmlStr+=`<marquee behavior="alternate" scrollamount="15">
+<img class="sandal" alt="Sandal Heels" src="https://images.prod.meredith.com/product/25c2753b615ae1433daba5c3ec9bed10/1551573449509/l/ellie-85mm-ankle-strap-sandal-654-heeled-sandals-pink-tory-burch-heels">
+</marquee>`
+
+}
+
+if($('select').val() === "Mule Heels"){ 
+htmlStr+=`<marquee behavior="alternate" scrollamount="15">
+<img class="mule" alt="Mule Heels" src="http://www.fbcnevadacity.org/images/category_5/Dune%20Megg%20Block%20Heeled%20Mule%20Sandals%20Pink%20RK57908_4.jpg">
+</marquee>`
+
+}
+
+if($('select').val() === "Block Heels"){ 
+htmlStr+=`<marquee behavior="alternate" scrollamount="15">
+<img class="block" alt="Block Heels" src="https://img.cools.com/?h=300&trim=19&url=https://cdn-images.farfetch-contents.com/12/90/06/54/12900654_13216695_1000.jpg">
+</marquee>`
+
+}
+
+
   for(let i=0; i<responseJson.results.length; i++){
     let r=responseJson.results[i]
     htmlStr+=`<section class="heels-card">
