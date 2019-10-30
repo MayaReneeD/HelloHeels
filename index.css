@@ -36,7 +36,7 @@
 
 
   .heels-card {
-    max-width: 75%; 
+    max-width: 100%; 
     background-color: rgb(90, 49, 90);
     margin: auto; 
      
@@ -52,9 +52,23 @@
   }
 
   .banner {
-    width: 57%; 
+    width: 100%; 
   }
   
   .container {
     text-align: center; 
   }
+
+
+@media screen and (min-width:480px) {
+  .heels-card {
+    max-width: 75%;
+  }
+}
+
+@media screen and (min-width:800px) {
+  .banner {
+     width: 57%;
+  }
+}
+
