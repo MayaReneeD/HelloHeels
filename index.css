@@ -28,6 +28,7 @@
     width: 36em;
     margin: 0 auto;
     font-size: 16px;
+    text-decoration: none; 
 
   }
     
@@ -39,6 +40,9 @@
     max-width: 100%; 
     background-color: rgb(90, 49, 90);
     margin: auto; 
+    border-radius: 10px; 
+    padding: 20px;
+    margin-top: 40px; 
      
   
   }
@@ -67,6 +71,8 @@
   .glitter {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
+    margin-top: 10px; 
   }
 
   .kitten {
