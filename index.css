@@ -38,7 +38,7 @@
 
   .heels-card {
     max-width: 100%; 
-    background-color: rgb(90, 49, 90);
+    background-color:rgb(48, 45, 45);
     margin: auto; 
     border-radius: 10px; 
     padding: 20px;
@@ -66,6 +66,8 @@
   .pumps {
     width: 150px;
     height: 150px; 
+    border-radius: 10px;
+    margin-top: 10px;
   }
 
   .glitter {
@@ -78,46 +80,64 @@
   .kitten {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
   }
 
   .lace {
     width: 150px;
     height: 150px; 
+    border-radius: 10px;
+    margin-top: 10px;
   }
 
   .low {
     width: 150px;
     height: 150px; 
+    border-radius: 10px;
+    margin-top: 10px;
 
   }
 
   .mid {
     width: 150px;
     height: 150px; 
+    border-radius: 10px;
+    margin-top: 10px;
   }
 
   .high {
     width: 150px;
     height: 150px; 
+    border-radius: 10px;
+    margin-top: 10px;
   }
 
   .wedge {
     width: 150px;
     height: 150px; 
+    border-radius: 10px;
+    margin-top: 10px;
   }
 
   .sandal {
     width: 150px;
     height: 150px; 
+    border-radius: 10px;
+    margin-top: 10px;
   }
   .mule {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
   }
 
   .block {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
   }
 
 @media screen and (min-width:480px) {
